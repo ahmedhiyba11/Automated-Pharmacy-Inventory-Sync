@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: Arial, sans-serif; width: 320px; padding: 15px; background-color: #f8f9fa; }
+    h3 { text-align: center; color: #333; margin-top: 0; }
+    label { font-size: 13px; font-weight: bold; color: #555; display: block; margin-bottom: 5px; }
+    input { width: 93%; margin-bottom: 15px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 11px; }
+    button { width: 100%; padding: 12px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 14px;}
+    button:hover { background-color: #218838; }
+    #status { margin-top: 12px; font-size: 13px; font-weight: bold; text-align: center; }
+  </style>
+</head>
+<body>
+  <h3>أداة تعبئة مستشفى المحلة</h3>
+  <label>رابط الشيت (تم إدراج رابطك الافتراضي):</label>
+  <input type="text" id="csvLink" value="https://docs.google.com/spreadsheets/d/e/2PACX-1vThHon2jPxdySVRmphn4YvOcr3XuiJ_7OHJJaOdjLl2kxB-cAwK9F0_U-lhKuYOMPNKDnQTcIbmDJ6i/pub?gid=381084208&single=true&output=csv">
+  <button id="fillBtn">ابدأ نقل البيانات الآن 🚀</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

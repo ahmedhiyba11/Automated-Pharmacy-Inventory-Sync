@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "محول بيانات السيرفاي",
+  "version": "1.0",
+  "description": "ينقل الرصيد والاحتياج من جوجل شيت إلى السيرفاي بضغطة زر.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://docs.google.com/*",
+    "*://*.surveymars.com/*",
+    "*://*.surveymonkey.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
